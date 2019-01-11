@@ -1,6 +1,6 @@
 # androidTricks
-Trick for android
-///news scroll
+#news scroll
+
  final int scrollSpeed = 100;   // Scroll Speed in Milliseconds
             final Handler handler = new Handler();
             final Runnable runnable = new Runnable() {
