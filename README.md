@@ -1,7 +1,8 @@
 # androidTricks
-#news scroll
+## news scroll
 
- final int scrollSpeed = 100;   // Scroll Speed in Milliseconds
+```java
+            final int scrollSpeed = 100;   // Scroll Speed in Milliseconds
             final Handler handler = new Handler();
             final Runnable runnable = new Runnable() {
                 int x = 15;        // Pixels To Move/Scroll
@@ -38,3 +39,4 @@
             handler.postDelayed(runnable, scrollSpeed);
 
             handler.postDelayed(runnable,500);
+```
